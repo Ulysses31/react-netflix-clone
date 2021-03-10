@@ -1,7 +1,8 @@
 import React from 'react';
-import Banner from './components/banner';
-import NavBar from './components/navbar';
-import Row from './components/row';
+import Banner from './components/banner/banner';
+import Footer from './components/footer/footer';
+import NavBar from './components/navbar/navbar';
+import Row from './components/row/row';
 import requests from './requests';
 import './App.css';
 
@@ -43,6 +44,7 @@ function App() {
         title='Documentaries Movies'
         fetchUrl={requests.fetchDocumentaries}
       />
+      <Footer />
     </div>
   );
 }

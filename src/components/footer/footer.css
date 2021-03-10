@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: #606060;
+}
+
+.footer__intro {
+  display: flex;
+  color: #606060;
+  font-size: large;
+}
+
+.footer > p {
+  color: #cdcdcd;
+  font-size: xx-small;
+  margin: 5px 0;
+}
+
+/* Portrait */
+@media only screen and (max-width: 414px) {
+  .footer__intro {
+    font-size: small;
+  }
+}

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import movieTrailer from 'movie-trailer';
 import PropTypes from 'prop-types';
 import YouTube from 'react-youtube';
-import axios from '../axios';
+import axios from '../../axios';
 import './row.css';
 
 const baseUrl = 'https://image.tmdb.org/t/p/w342';
