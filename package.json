@@ -2,6 +2,19 @@
   "name": "react-netflix-clone-app",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Iordanidis Chris"
+  },
+  "description": "React NETFLIX clone app demo.",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/**/*.js --ext .js --config .eslintrc.json",
+    "lintfix": "eslint ./src/**/*.js --ext .js --config .eslintrc.json --fix",
+    "deploy": "npm run build && firebase deploy"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -9,13 +22,19 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.0"
+    "web-vitals": "^1.1.0",
+    "axios": "^0.21.1",
+    "movie-trailer": "^2.1.0",
+    "react-youtube": "^7.13.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   },
   "eslintConfig": {
     "extends": [
