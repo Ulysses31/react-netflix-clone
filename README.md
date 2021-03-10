@@ -47,7 +47,7 @@ To **deploy** the application
 
 # Firebase Link
 
-https://clone-app-83dc1.web.app/
+https://netflix-clone-7bd1d.web.app/
 
 ## GitHub
 
